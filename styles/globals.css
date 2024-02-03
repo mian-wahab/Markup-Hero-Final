@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.owl-carousel .owl-item img {
+    display: block;
+    width: fit-content !important;
+}
+.owl-carousel.owl-loaded {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+}
+.owl-nav {
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+    width: 100%;
+}
+.owl-carousel .owl-nav button.owl-prev {
+    font-size: 25px !important;
+    left: -18px;
+    position: relative;
+    /* background: #f0f0f0 !important; */
+    padding: 0px 5px 5px 5px !important;
+    align-items: center;
+    border-radius: 50%;
+    border: 1px solid #212121 !important;
+}
+
+.owl-nav button.owl-next {
+    font-size: 25px !important;
+    left: 18px;
+    position: relative;
+    /* background: #f0f0f0 !important; */
+    padding: 0px 5px 5px 5px !important;
+    align-items: center;
+    border-radius: 50%;
+    border: 1px solid #212121 !important;
+    margin: 0px !important;
+}
+.owl-stage {
+    min-height: 210px !important;
+}
